@@ -1,0 +1,259 @@
+htmlCopy<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Registration Form</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+        }
+
+        .container {
+
+            width: 80%;
+
+            margin: 20px auto;
+
+            border: 1px solid #ccc;
+
+            padding: 20px;
+
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        }
+
+        h1 {
+
+            text-align: center;
+
+            color: #333;
+
+            margin-bottom: 20px;
+
+        }
+
+        .logo {
+
+            text-align: center;
+
+            margin-bottom: 20px;
+
+        }
+
+        .logo img {
+
+            max-width: 100px;
+
+            height: auto;
+
+        }
+
+        .form-group {
+
+            margin-bottom: 15px;
+
+            padding: 10px;
+
+            border: 1px solid #ddd;
+
+        }
+
+        label {
+
+            display: block;
+
+            margin-bottom: 5px;
+
+            font-weight: bold;
+
+        }
+
+        input[type="text"],
+
+        input[type="email"],
+
+        input[type="date"],
+
+        select {
+
+            width: 100%;
+
+            padding: 8px;
+
+            border: 1px solid #ccc;
+
+            border-radius: 4px;
+
+            box-sizing: border-box;
+
+            margin-top: 5px;
+
+        }
+
+        textarea {
+
+            width: 100%;
+
+            padding: 8px;
+
+            border: 1px solid #ccc;
+
+            border-radius: 4px;
+
+            box-sizing: border-box;
+
+            margin-top: 5px;
+
+            resize: vertical;
+
+        }
+
+        .gender-options {
+
+            margin-top: 5px;
+
+        }
+
+        button {
+
+            background-color: #4CAF50;
+
+            color: white;
+
+            padding: 10px 15px;
+
+            border: none;
+
+            border-radius: 4px;
+
+            cursor: pointer;
+
+            margin-top: 10px;
+
+        }
+
+        button:hover {
+
+            background-color: #3e8e41;
+
+        }
+
+        .button-container {
+
+            text-align: center;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="logo">
+
+            <img src="c:\Users\smart\Downloads\doodle black line school building icon flat silhouette build vector illustration on white background.jpg" alt="School Logo">
+
+        </div>
+
+        <h1>Student Registration Form</h1>
+
+        <form action="#" method="post">
+
+            <div class="form-group">
+
+                <label for="name">Name:</label>
+
+                <input type="text" id="name" name="name" required>
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="email">Email Address:</label>
+
+                <input type="email" id="email" name="email" required>
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="dob">Date of Birth:</label>
+
+                <input type="date" id="dob" name="dob" required>
+
+            </div>
+
+            <div class="form-group">
+
+                <label>Gender:</label>
+
+                <div class="gender-options">
+
+                    <input type="radio" id="gender-male" name="gender" value="male">
+
+                    <label for="gender-male">Male</label>
+
+                    <input type="radio" id="gender-female" name="gender" value="female">
+
+                    <label for="gender-female">Female</label>
+
+                    <input type="radio" id="gender-other" name="gender" value="other">
+
+                    <label for="gender-other">Other</label>
+
+                </div>
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="hobbies">Hobbies:</label>
+
+                <textarea id="hobbies" name="hobbies" rows="4"></textarea>
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="major">Major:</label>
+
+                <select id="major" name="major">
+
+                    <option value="computer_science">Computer Science</option>
+
+                    <option value="business_it">Business IT</option>
+
+                    <option value="data_science">Data Science</option>
+
+                </select>
+
+            </div>
+
+            <div class="button-container">
+
+                <button type="submit">Submit</button>
+
+                <button type="reset">Reset</button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
